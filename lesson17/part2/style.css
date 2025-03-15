@@ -1,0 +1,67 @@
+:root{
+    --primarycolor: #06206a;
+    --secondarycolor: #fff;
+    --padding: 20px;
+
+}
+h1{
+    background-color: var(--primarycolor);
+    color: var(--secondarycolor);
+    padding: var(--padding);
+}
+p{
+    background-color: var(--primarycolor);
+    color: var(--secondarycolor);
+    padding: var(--padding);
+}
+#example-one{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #bada55;
+}
+
+#example-two{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border-color: #bada55;
+}
+
+#example-three{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border-color: #bada55;
+    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.myloview.com%2Fmurals%2Fabstract-wavy-lines-striped-texture-and-background-700-225761213.jpg&tbnid=HbUsIgRnqbadRM&vet=10CAQQxiAoA2oXChMI0KCY_pqMjAMVAAAAAB0AAAAAEAc..i&imgrefurl=https%3A%2F%2Fmyloview.com%2Fwall-mural-abstract-wavy-lines-striped-texture-and-background-no-D74D7BD&docid=b2nCGWcOSteBqM&w=700&h=700&itg=1&q=lines&ved=0CAQQxiAoA2oXChMI0KCY_pqMjAMVAAAAAB0AAAAAEAc)
+}
+#example-four{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border-color: #bada55;
+
+}
+
+#example-five{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border-color: #bada55;
+
+}
+#example-six{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border-color: #bada55;
+
+}
+
+
