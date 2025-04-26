@@ -1,0 +1,204 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    background-color: darkred;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e00909;
+    padding: 30px 5%;
+  }
+  
+  .navbar .logo img {
+    height: 50px;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    background-color: #e00909;
+  }
+  
+  .nav-links li {
+    margin-left: 25px;
+  }
+  
+  .nav-links a {
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #000000;
+  }
+  
+  /* Mobile Menu Toggle */
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 4px 0;
+    background-color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links {
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #111;
+      width: 200px;
+      flex-direction: column;
+      display: none;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: flex;
+    }
+    
+    div.slide {
+        border: 1px black solid;
+        margin: 5px;
+        float: left;
+        width: 180px;
+        
+    
+    }
+
+    div.slide img{
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+    p{
+        font-weight: bold;
+    }
+
+    div.gallery{
+        border: 1px black solid;
+        margin: 5px;
+        float: left;
+        width: 180px;
+        
+    }
+    div.gallery:hover{
+        border: 1px solid #777 
+    }
+    
+    div.gallery img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Headline Container */
+  .headline-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Main Headline Styling */
+  .main-headline {
+    font-size: 50px;
+    font-weight: bold;
+    color: #d32f2f; /* LFC Red */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    animation: headline-animation 1s ease-in-out;
+  }
+  
+  /* Sub Headline Styling */
+  .sub-headline {
+    font-size: 32px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    animation: headline-animation 1.5s ease-in-out;
+  }
+  
+  /* Description Text Styling */
+  .headline-description {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 400;
+  }
+  
+  /* Animation for the Headlines */
+  @keyframes headline-animation {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .main-headline {
+      font-size: 36px;
+    }
+  
+    .sub-headline {
+      font-size: 24px;
+    }
+  
+    .headline-description {
+      font-size: 16px;
+    }
+  }
+  
+
+  }
+  
